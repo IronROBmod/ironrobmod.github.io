@@ -1,2 +1,0 @@
-# Curriculum-Vitae
-My website
