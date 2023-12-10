@@ -205,6 +205,14 @@ a:hover {
   color: #8e44ad;
 }
 
+.tm-text-purple>a {
+  color: #8e44ad;
+}
+
+.tm-text-purple>a:hover {
+  color: #4a0075;
+}
+
 .tm-title-small {
   font-size: 1.3rem;
 }
