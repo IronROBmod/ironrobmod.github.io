@@ -11,11 +11,6 @@ body {
   overflow-x: hidden;
 }
 
-a,
-button {
-  transition: all 0.3s ease;
-}
-
 a:hover {
   text-decoration: none;
 }
@@ -52,6 +47,10 @@ a:hover {
   background-color: #986665;
 }
 
+.tm-bg-purple {
+  background-color: #8e44ad;
+}
+
 /*
   Welcome section
 */
@@ -85,10 +84,6 @@ a:hover {
 .parallax-window {
   min-height: 1100px;
   background: transparent;
-}
-
-#tmContact {
-  min-height: 1197px;
 }
 
 .tm-welcome-container {
@@ -166,8 +161,24 @@ a:hover {
   color: #98cb00;
 }
 
+.tm-text-green>a {
+  color: #98cb00;
+}
+
+.tm-text-green>a:hover {
+  color: #00cb00;
+}
+
 .tm-text-orange {
   color: #cc6733;
+}
+
+.tm-text-orange>a {
+  color: #ff6733;
+}
+
+.tm-text-orange>a:hover {
+  color: #cc3333;
 }
 
 .tm-text-blue {
@@ -178,8 +189,20 @@ a:hover {
   color: #676767;
 }
 
+.tm-text-dark-gray>a {
+  color: #676767;
+}
+
+.tm-text-dark-gray>a:hover {
+  color: #1c1c1c;
+}
+
 .tm-text-brown {
   color: #986665;
+}
+
+.tm-text-purple {
+  color: #8e44ad;
 }
 
 .tm-title-small {
