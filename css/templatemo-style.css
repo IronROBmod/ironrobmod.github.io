@@ -230,7 +230,7 @@ p {
 }
 
 :root {
-  --success: #00b894;
+  --success: #0fb800;
   --progress: #ff6f00;
   --error: #d63031;
 }
@@ -238,17 +238,17 @@ p {
 .progressbar-wrapper {
   background-color: #dfe6e9;
   color: white;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 100%;
 }
 
 .progressbar {
   background-color: var(--progress);
   color: white;
-  padding: 1rem;
   text-align: right;
+  text-align: center;
   font-size: 20px;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .progressbar[title="downloading"] {
@@ -263,6 +263,10 @@ p {
   width: 50%;
 }
 
-.mp3 {
-  width: 60%;
+.pokemath {
+  width: 100%;
+}
+
+.sejour {
+  width: 85%;
 }
