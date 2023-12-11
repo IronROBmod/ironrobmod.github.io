@@ -8,7 +8,6 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #6b6b6b;
-  overflow-x: hidden;
 }
 
 a:hover {
@@ -82,7 +81,7 @@ a:hover {
 }
 
 .brand-name>a:hover {
-  color: #00d9ff;
+  color: #0059ff;
 }
 
 .brand-description {
@@ -121,7 +120,7 @@ a:hover {
 
 .welcome-right {
   color: white;
-  background-color: #986665;
+  background-color: #3c1107;
   padding: 80px 43px 70px;
   height: 100%;
 }
@@ -131,6 +130,8 @@ a:hover {
   display: block;
   text-align: center;
 }
+
+
 
 /*
   Portfolio section
@@ -147,26 +148,36 @@ a:hover {
 }
 
 .portfolio-name {
-  width: 330px;
-  height: 220px;
+  width: 350px;
+  height: 250px;
   font-size: 2rem;
-  padding: 70px 95px;
+  padding: 50px 50px;
   display: flex;
   align-items: center;
   text-align: center;
 }
 
 .portfolio-description {
-  width: calc(100% - 330px);
-  padding: 20px 45px;
+  width: calc(100% - 300px);
+  padding: 20px 40px;
 }
 
 .portfolio-description h3 {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .text-green {
   color: #98cb00;
+}
+
+ul {
+  list-style:square;
+  padding-left: 2;
+  margin-bottom: 5px;
+}
+
+li {
+  margin-bottom: 0px;
 }
 
 .text-green>a {
@@ -227,6 +238,7 @@ a:hover {
 
 p {
   line-height: 1.5;
+  margin: 0px 0px 10px;
 }
 
 :root {
@@ -252,11 +264,19 @@ p {
 }
 
 .progressbar[title="downloading"] {
-   background-color: var(--progress);
+  background-color: var(--progress);
 }
 
 .progressbar[title="downloaded"] {
-   background-color: var(--success);
+  background-color: var(--success);
+}
+
+.chassemonstre {
+  width: 100%;
+}
+
+.bdd {
+  width: 100%;
 }
   
 .fastfood {
@@ -267,6 +287,14 @@ p {
   width: 100%;
 }
 
+.plug {
+  width: 90%;
+}
+
 .sejour {
   width: 85%;
+}
+
+.portfolio {
+  width: 70%;
 }
