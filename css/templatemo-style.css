@@ -8,6 +8,24 @@ body {
   font-size: 18px;
   font-weight: 400;
   color: #6b6b6b;
+  background-color: #f2f2f2;
+}
+
+.dark-mode {
+  background-color: #1c1c1c;
+  color: #f2f2f2;
+}
+
+.button {
+  align-items: center;
+  display: block;
+  background-color: #000000;
+  padding: 20px 20px;
+  border-radius: 5px;
+  text-decoration:dashed;
+  margin-bottom: 10px;
+  position: absolute;
+  margin: 0 auto;
 }
 
 a:hover {
@@ -131,8 +149,6 @@ a:hover {
   text-align: center;
 }
 
-
-
 /*
   Portfolio section
 */
@@ -163,17 +179,39 @@ a:hover {
 }
 
 .portfolio-description h3 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .text-green {
   color: #98cb00;
 }
 
+table {
+  align-items: center;
+  margin: auto;
+  width: calc(100% -300px);
+}
+
+caption {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+td {
+text-align: center;
+}
+
+th {
+  text-align: center;
+  padding: 10px;
+}
+
 ul {
   list-style:square;
   padding-left: 2;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
 }
 
 li {
@@ -213,11 +251,19 @@ li {
 }
 
 .text-dark-gray>a:hover {
-  color: #1c1c1c;
+  color: #000000;
 }
 
 .text-brown {
   color: #986665;
+}
+
+.text-brown>a {
+  color: #986665;
+}
+
+.text-brown>a:hover {
+  color: #4c3333;
 }
 
 .text-purple {
@@ -238,7 +284,7 @@ li {
 
 p {
   line-height: 1.5;
-  margin: 0px 0px 10px;
+  margin: 0px 0px 0px;
 }
 
 :root {
@@ -297,4 +343,12 @@ p {
 
 .portfolio {
   width: 70%;
+}
+
+.fnf {
+  width: 90%;
+}
+
+.oop {
+  width: 100%;
 }
