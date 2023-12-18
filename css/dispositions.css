@@ -131,6 +131,7 @@ a:hover {
 
 .brand-description {
   font-size: 1.4rem;
+  color: white;
 }
 
 .parallax-window {
@@ -419,7 +420,18 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .portfolio {
-  width: 70%;
+  width: 80%;
+}
+
+.scroll {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.scroll>img {
+  padding: 5px;
+  width: 65%;
+  height: 100%;
 }
 
 .fnf {
