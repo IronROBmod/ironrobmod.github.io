@@ -1,10 +1,11 @@
 #menu>ul{
-    width: 60%;
+    width: 50%;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
     list-style: none;
     margin: auto;
+    padding: 0;
 }
 
 nav{

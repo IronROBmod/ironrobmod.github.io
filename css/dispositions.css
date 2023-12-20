@@ -97,6 +97,10 @@ a:hover {
   background-color: #8e44ad;
 }
 
+#songname {
+  padding: 50px 0px 0px 0px ; 
+}
+
 /*Welcome section*/
 #tmWelcome {
   position: relative;
@@ -181,13 +185,13 @@ ol,ul {
 /*Portfolio section*/
 
 #tmPortfolio {
-  padding-top: 80px;
+  padding-top: 20px;
 }
 
 .portfolio-item {
   display: flex;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 .portfolio-name {
@@ -203,7 +207,7 @@ ol,ul {
 
 .portfolio-description {
   width: calc(100% - 300px);
-  padding: 20px 40px;
+  padding: 0px 40px;
 }
 
 .portfolio-description h3 {
@@ -220,6 +224,19 @@ ol,ul {
 
 #formations {
   text-align: center;
+  margin-top: 30px;
+  padding: 60px 0px 0px 0px ;
+}
+
+#competences {
+  text-align: center;
+  margin-top: 30px;
+  padding: 60px 0px 0px 0px ;
+}
+
+#experiences {
+  text-align: center;
+  margin-top: 30px;
 }
 
 .Formations {  
@@ -230,10 +247,31 @@ ol,ul {
   width: fit-content;
 }
 
+.Formations>p{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.Formations>h3{
+  text-align: center;
+  margin-top: 15px;
+}
+
 table {
   align-items: center;
   margin: auto;
   width: calc(100% -300px);
+  margin-bottom: 20px;
+}
+
+#informatique>li{
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#professionelle>li{
+  text-align: center;
+  margin-bottom: 5px;
 }
 
 caption {
@@ -256,10 +294,6 @@ ul {
   list-style:square;
   margin-bottom: 2px;
   padding: 0px 0px 0px 0px;
-}
-
-li {
-  margin-bottom: 0px;
 }
 
 .text-green>a {
@@ -332,6 +366,7 @@ p {
 }
 
 .perso{
+  margin: 100px;
   text-align: center;
   color:rgb(210, 141, 30)
 }
@@ -347,6 +382,7 @@ p {
   border-radius: 10px;
   width: 100%;
 }
+
 #informatique{
   
 }
@@ -366,7 +402,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .h3,h3 {
-  font-size: 1.75rem
+  font-size: 1.75rem;
 }
 
 .h4,h4 {
@@ -434,7 +470,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .scroll>img {
   padding: 5px;
-  width: 65%;
+  width: 50%;
   height: 100%;
 }
 
