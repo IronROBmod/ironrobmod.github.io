@@ -278,7 +278,7 @@ table {
 }
 
 #ps2{
-  width: 34%;
+  width: 32%;
 
 }
 
@@ -305,6 +305,11 @@ video{
   height: 11%;
 }
 
+#link{
+  width: 27%;
+  height: 27%;
+}
+
 td {
 text-align: center;
 font-size: 1.2rem;
@@ -329,8 +334,8 @@ ul {
 }
 
 #captain{
-  width: 40%;
-  height: 40%;
+  width: 38%;
+  height: 38%;
 }
 
 .text-green>a {
