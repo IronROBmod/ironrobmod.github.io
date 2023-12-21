@@ -1,6 +1,6 @@
 #menu > ul {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -8,7 +8,7 @@
     padding: 0;
 }
 
-nav {
+nav>#menu {
     width: 100%;
     background-color: #003cff;
     position: fixed;
@@ -26,6 +26,11 @@ nav {
     text-align: center;
     display: block;
     padding: 0.5rem 1rem;
+}
+
+#menu > ul > li > a:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 #menu > ul > li > button {
@@ -52,5 +57,20 @@ nav {
 
     #menu > ul > li> button {
         display: none;
+    }
+
+    nav>#menu {
+        border-radius: 0px;
+    }
+}
+
+@media (max-width: 850px) {
+    #menu > ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menu > ul > li {
+        width: 100%;
     }
 }
