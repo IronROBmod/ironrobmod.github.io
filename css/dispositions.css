@@ -23,7 +23,7 @@ html {
 
 body {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
-  color: #6b6b6b;
+  color: #000000;
   background-color: #f2f2f2;
   margin: 0;
 }
@@ -40,11 +40,16 @@ a:hover {
 
 .dark-mode {
   background-color: #1c1c1c;
-  color: #f2f2f2;
+  color: #ffffff;
+}
+
+#imgplug {
+  width: 30%;
+  height: 30%;
 }
 
 #whoiam {
-  padding: 20px 0px 0px 20px ;
+  padding: 40px 0px 0px 20px ;
 }
 
 .button {
@@ -181,16 +186,10 @@ ol,ul {
   margin-top: 10px;
 }
 
-.welcome-icon {
-  margin-bottom: 50px;
-  display: block;
-  text-align: center;
-}
-
 /*Portfolio section*/
 
 #tmPortfolio {
-  padding-top: 20px;
+  padding-top: 60px;
 }
 
 .portfolio-item {
@@ -236,11 +235,6 @@ ol,ul {
   padding: 60px 0px 0px 0px ;
 }
 
-#experiences {
-  text-align: center;
-  margin-top: 30px;
-}
-
 .Formations {  
   align-items: center;
   display: block;
@@ -275,11 +269,16 @@ table {
 
 #experiences{
   text-align: center;
-  padding: 50px 0px 0px 0px ;
+  padding: 60px 0px 0px 0px ;
+}
+
+#experiences>p{
+  text-align: center;
+  margin: 0px 15px 0px 15px ;
 }
 
 #ps2{
-  width: 59.5%;
+  width: 34%;
 
 }
 
@@ -296,13 +295,19 @@ caption {
 }
 
 video{
-  margin-top: 5px;
-  width: 80%;
-  height: 80%;
+  margin-top: 2px;
+  width: 40%;
+  height: 40%;
+}
+
+#pp{
+  width: 11%;
+  height: 11%;
 }
 
 td {
 text-align: center;
+font-size: 1.2rem;
 }
 
 th {
@@ -311,6 +316,7 @@ th {
 }
 
 .warning{
+  margin-top:10px;
   color: #FFFF00;
   background-color: red;
   border-radius: 10px;
@@ -320,6 +326,11 @@ ul {
   list-style:square;
   margin-bottom: 2px;
   font-size: 1.2rem;
+}
+
+#captain{
+  width: 40%;
+  height: 40%;
 }
 
 .text-green>a {
@@ -343,7 +354,15 @@ ul {
 }
 
 .text-blue {
+  color: #3398cc;
+}
+
+.text-blue>a {
   color: #3398cc ;
+}
+
+.text-blue>a:hover {
+  color: #0000ff;
 }
 
 .text-dark-gray {
@@ -394,12 +413,10 @@ p {
 .perso{
   margin: 100px;
   text-align: center;
-  color:rgb(210, 141, 30)
 }
 
 .pro {
   text-align: center;
-  color :rgb(0, 94, 255)
 }
 
 .progressbar-wrapper {
@@ -410,7 +427,7 @@ p {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  margin-top: 0;
+  margin-top: .2rem;
   margin-bottom: .5rem
 }
 
@@ -500,7 +517,7 @@ h1,h2,h3,h4,h5,h6 {
 
 .scroll>img {
   padding: 5px;
-  width: 50%;
+  width: 30%;
   height: 100%;
 }
 
@@ -515,7 +532,6 @@ h1,h2,h3,h4,h5,h6 {
 #name {
   font-size: 1.5rem;
   font-weight: bold;
-  margin-bottom: 55px;
   text-align: center;
 }
 
@@ -547,10 +563,7 @@ footer>p{
   margin-left: -15px
 }
 
-.col-12 {
-  flex: 0 0 100%;
-  max-width: 100%
-}
+
 
 @media (min-width: 768px) {
   .col-md-5 {
