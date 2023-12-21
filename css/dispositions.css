@@ -210,10 +210,6 @@ ol,ul {
   padding: 0px 40px;
 }
 
-.portfolio-description h3 {
-  margin-bottom: 10px;
-}
-
 .portfolio-description ul>li {
   margin-left: 30px;
 }
@@ -262,11 +258,7 @@ table {
   margin: auto;
   width: calc(100% -300px);
   margin-bottom: 20px;
-}
-
-#informatique>li{
-  text-align: center;
-  margin-bottom: 5px;
+  margin-top: 20px;
 }
 
 #professionelle>li{
@@ -274,11 +266,22 @@ table {
   margin-bottom: 5px;
 }
 
+#experiences{
+  text-align: center;
+  padding: 50px 0px 0px 0px ;
+}
+
 caption {
   font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
+}
+
+video{
+  margin-top: 5px;
+  width: 80%;
+  height: 80%;
 }
 
 td {
@@ -382,7 +385,8 @@ p {
   width: 100%;
 }
 
-#informatique{
+#informatique>li{
+  
   
 }
 
@@ -491,7 +495,7 @@ h1,h2,h3,h4,h5,h6 {
 footer {
   background-color:#6b6b6b;
   color: white;
-  padding: 50px 0px;
+  padding: 10px 0px;
   text-align: center;
 }
 
