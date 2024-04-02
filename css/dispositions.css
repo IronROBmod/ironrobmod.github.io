@@ -102,6 +102,10 @@ a:hover {
   background-color: #8e44ad;
 }
 
+.bg-red {
+  background-color: #d63031;
+}
+
 #songname {
   padding: 50px 0px 0px 0px ; 
 }
@@ -200,13 +204,14 @@ ol,ul {
 
 .portfolio-name {
   width: 350px;
-  height: 250px;
+  height: 350px;
   font-size: 2rem;
   padding: 50px 50px;
   display: flex;
   align-items: center;
   text-align: center;
   color: white;
+  justify-content: center;
 }
 
 .portfolio-description {
@@ -278,8 +283,7 @@ table {
 }
 
 #ps2{
-  width: 32%;
-
+  width: 29.5%;
 }
 
 #github{
@@ -406,6 +410,18 @@ ul {
   color: #4a0075;
 }
 
+.text-red {
+  color: #d63031;
+}
+
+.text-red>a {
+  color: #d63031;
+}
+
+.text-red>a:hover {
+  color: #ff0000;
+}
+
 .title-small {
   font-size: 1.3rem;
 }
@@ -479,6 +495,10 @@ h1,h2,h3,h4,h5,h6 {
   background-color: var(--success);
 }
 
+.progressbar[title="stopped"] {
+  background-color: var(--error);
+}
+
 .chassemonstre {
   width: 100%;
 }
@@ -512,6 +532,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .art {
+  width: 100%;
+}
+
+.video {
   width: 100%;
 }
 
