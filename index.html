@@ -13,19 +13,22 @@
 
   <body>
     <!-- Navigation -->
-    <nav>
-      <div id="menu">
+    <nav id="superior_nav">
           <ul>
             <li><a class="nav-link" href="./index.html">Accueil</a></li>
             <li><a class="nav-link" href="./index.html#whoiam">Présentation</a></li>
             <li><a class="nav-link" href="./index.html#formations">Formations</a></li>
-            <li><a class="nav-link" href="./index.html#competences">Compétences</a></li>
+            <li><a class="nav-link" href="./index.html#competences">Compétences</a>
+            <ul>
+                <li><a class="nav-link" href="./index.html#pro">Professionnelles</a></li>
+                <li><a class="nav-link" href="./index.html#perso">Personnelles</a></li>
+            </ul>
+            </li>
             <li><a class="nav-link" href="./index.html#experiences">Expériences</a></li>
             <li><a class="nav-link" href="./index.html#tmPortfolio">Projets</a></li>
             <li><a class="nav-link" href="./index.html#contact">Contacts</a></li>
             <li><button onclick="toDark()"><img src ="./img/moon.png" alt ="darkmode"/></button></li>
           </ul>
-      </div>
     </nav>
     <!-- End Navigation -->
 
@@ -97,20 +100,20 @@
 
     <div id="competences">
       <h2>Compétences</h2>
-      <h3>Informatiques</h3>
+      <h3>Informatique</h3>
         <p>Réaliser un développement et le déploiment d'application</p>
         <p>Concevoir/Gérer des bases de données</p>
         <p>Concevoir/Gérer des réseaux informatiques</p>
         <p>Concevoir/Gérer des interfaces web</p>
       <h3 id="professionelle">Professionnelles</h3>
-        <p>Travaille d'équipe</p>
-        <p>Gestion d'équipes pluri-disciplinaires</p>
+        <p>Travaille en équipe</p>
+        <p>Gestion / Intégration d'équipes pluridisciplinaires</p>
         <p>Connaissance de la méthode Scrum</p>
         <p>Connaissance de la méthode Agile</p>
     </div>
 
       <table>
-        <caption>Langages de programmations maîtrisés</caption>
+        <caption>Langages de programmations maîtrisé</caption>
           <tr>
             <th scope="col"></th>
             <th scope="col">Utilisations</th>
@@ -139,7 +142,7 @@
           </tr>
           <tr>
             <th scope="row">C</th>
-            <td>Programations systemes</td>
+            <td>Programmations systèmes</td>
             <td>Université</td>
           </tr>
           <tr>
@@ -157,7 +160,7 @@
 
       <div id="experiences">
         <h2>Expériences</h2>
-        <p>Vous retrouverez toutes mes expériences ainsi que toutes informations compémentaires <a href="files/cv/CV_CHEBOUT_HOCINE.pdf" download="CV_CHEBOUT_HOCINE.pdf">sur mon CV</a> ou en cliquant sur mon prénom en haut de la page.</p>
+        <p>Vous retrouverez toutes mes expériences ainsi que toutes informations complémentaires <a href="files/cv/CV_CHEBOUT_HOCINE.pdf" download="CV_CHEBOUT_HOCINE.pdf">sur mon CV</a> ou en cliquant sur mon prénom en haut de la page.</p>
       </div>
 
     <!-- Portfolio section -->
@@ -166,13 +169,13 @@
         <div class="row">
           <div>
 
-            <div class="pro"><h1>Projets Professionels</h1></div>
+            <h1 id="pro">Projets professionnelles</h1>
 
             <div class="portfolio-item">
               <div class="portfolio-name bg-green">Jeu "Pokemath"</div>
               <div class="portfolio-description">
                 <h3 class="text-green"><a href="https://github.com/IronROBmod/SAE-1.02-POKEMATH">Logiciel ludo-pédagogique</a><span class="title-small"> (Novembre 2022 à Janvier 2023)</span></h3>
-                <p>Création d'un logiciel en Ijava (une variante simplifiée du <a href="https://www.java.com/en/download/help/whatis_java.html">Java</a> crées par nos enseignants) ludo-pédagogique pour l'apprentissage des mathématiques en primaire.</p>
+                <p>Création d'un logiciel en Ijava (une variante simplifiée du <a href="https://www.java.com/en/download/help/whatis_java.html">Java</a> créé par nos enseignants) ludo-pédagogique pour l'apprentissage des mathématiques en primaire.</p>
                 <div class="container">
                   <p><span class="title-small">Progression</span></p>
                   <div class="progressbar-wrapper">
@@ -343,7 +346,7 @@
             </div>
 
             <div class="portfolio-item">
-              <div class="portfolio-name bg-purple">Compositeur musicale</div>
+              <div class="portfolio-name bg-purple">Compositeur musical</div>
               <div class="portfolio-description">
                 <h3 id="songname" class="text-purple">Compositions musicales<span class="title-small"> (2021 à Aujourd'hui)</span></h3>
                 <p>Création de différentes instrumentales pour des jeux vidéos.</p>
@@ -429,7 +432,7 @@
             <div class="portfolio-item">
               <div class="portfolio-name bg-red">Monteur vidéo</div>
               <div class="portfolio-description">
-                <h3 id="songname" class="text-red"><a href="https://www.youtube.com/channel/UCeXe63YV9lClfis-ypbG1DQ">Créateur de contenue</a><span class="title-small"> (2019 à Aujourd'hui)</span></h3>
+                <h3 id="songname" class="text-red"><a href="https://www.youtube.com/channel/UCeXe63YV9lClfis-ypbG1DQ">Créateur de contenu</a><span class="title-small"> (2019 à Aujourd'hui)</span></h3>
                 <p>Création de différents montage vidéos</p>
                 <div class="wrapper">
                   <iframe width="300" height="170" src="https://www.youtube.com/embed/pEf2KruOkDw?si=hEYLRCOeJMI8dXaU" title="YouTube video player" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

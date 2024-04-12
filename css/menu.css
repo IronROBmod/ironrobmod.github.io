@@ -1,4 +1,52 @@
-#menu > ul {
+
+
+#superior_nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: relative;
+} 
+#superior_nav ul li {
+	display:inline-block;
+	color: #1f2859;
+    text-decoration: none;
+}
+#superior_nav a {
+	display:block;
+	padding:0 10px; 
+	color:#ffffff;
+    background-color: black;
+	font-size:25px;
+	line-height: 60px;
+	text-decoration:none;
+    
+}
+#superior_nav a:hover { 
+	background-color: #1f2859; 
+	color:#FFF;
+    text-decoration: none;
+}
+#superior_nav ul ul {
+	display: none;
+	position: absolute; 
+	top: 60px; 
+} 
+#superior_nav ul li:hover > ul {
+	display:inherit;
+} 
+#superior_nav ul ul li {
+	width:230px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+#superior_nav li > a:after { content:  ' ▼'; }
+#superior_nav li > a:only-child:after { content: ''; }
+
+
+
+
+#superior_nav > ul {
     width: 100%;
     justify-content: space-evenly;
     display: flex;
@@ -8,7 +56,7 @@
     padding: 0;
 }
 
-nav>#menu {
+nav {
     width: 100%;
     background-color: #000000;
     position: fixed;
@@ -16,11 +64,11 @@ nav>#menu {
     border-radius: 0px 0px 10px 10px;
 }
 
-#menu > ul > li {
+#superior_nav > ul > li {
     text-align: center;
 }
 
-#menu > ul > li > a {
+#superior_nav > ul > li > a {
     color: rgb(255, 255, 255);
     font-size: 25px;
     text-align: center;
@@ -28,18 +76,18 @@ nav>#menu {
     padding: 0.5rem 1rem;
 }
 
-#menu > ul > li > a:hover {
+#superior_nav > ul > li > a:hover {
     color: white;
     text-decoration: underline;
 }
 
-#menu > ul > li > button {
+#superior_nav > ul > li > button {
     background-color: transparent;
     border: none;
     padding: 0;
 }
 
-#menu > ul > li > button > img {
+#superior_nav > ul > li > button > img {
     max-height: 50px;
     width: auto;
     display: block;
@@ -47,19 +95,19 @@ nav>#menu {
 }
 
 @media (max-width: 1100px) {
-    #menu > ul > li {
+    #superior_nav > ul > li {
         width: 90%;
     }
     
-    #menu > ul > li > a {
+    #superior_nav > ul > li > a {
         font-size: 20px;
     }
 
-    nav>#menu {
+    nav>#superior_nav {
         border-radius: 0px;
     }
 
-    #menu > ul > li > button > img {
+    #superior_nav > ul > li > button > img {
         max-height: 40px;
         width: auto;
         display: block;
@@ -68,19 +116,19 @@ nav>#menu {
 }
 
 @media (max-width: 920px) {
-    #menu > ul > li {
+    #superior_nav > ul > li {
         width: 70%;
     }
     
-    #menu > ul > li > a {
+    #superior_nav > ul > li > a {
         font-size: 18px;
     }
 
-    nav>#menu {
+    nav>#superior_nav {
         border-radius: 0px;
     }
 
-    #menu > ul > li > button > img {
+    #superior_nav > ul > li > button > img {
         max-height: 40px;
         width: auto;
         display: block;
@@ -91,24 +139,22 @@ nav>#menu {
 }
 
 @media (max-width: 850px) {
-    #menu > ul > li {
+    #superior_nav > ul > li {
         width: 50%;
     }
     
-    #menu > ul > li > a {
+    #superior_nav > ul > li > a {
         font-size: 16px;
     }
 
-    nav>#menu {
+    nav>#superior_nav {
         border-radius: 0px;
     }
 
-    #menu > ul > li > button > img {
+    #superior_nav > ul > li > button > img {
         max-height: 30px;
         width: auto;
         display: block;
         margin: 0 auto;
     }
-
-
 }
