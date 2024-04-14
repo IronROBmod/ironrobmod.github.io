@@ -1,16 +1,16 @@
-
-
 #superior_nav ul {
 	padding: 0;
 	margin: 0;
 	list-style: none;
 	position: relative;
-} 
+}
+
 #superior_nav ul li {
 	display:inline-block;
 	color: #1f2859;
     text-decoration: none;
 }
+
 #superior_nav a {
 	display:block;
 	padding:0 10px; 
@@ -19,32 +19,33 @@
 	font-size:25px;
 	line-height: 60px;
 	text-decoration:none;
-    
 }
+
 #superior_nav a:hover { 
 	background-color: #1f2859; 
 	color:#FFF;
     text-decoration: none;
 }
+
 #superior_nav ul ul {
 	display: none;
 	position: absolute; 
 	top: 60px; 
 } 
+
 #superior_nav ul li:hover > ul {
 	display:inherit;
 } 
+
 #superior_nav ul ul li {
 	width:230px;
 	float:none;
 	display:list-item;
 	position: relative;
 }
-#superior_nav li > a:after { content:  ' ▼'; }
+
+#superior_nav li > a:after { content: ' ▼'; }
 #superior_nav li > a:only-child:after { content: ''; }
-
-
-
 
 #superior_nav > ul {
     width: 100%;
@@ -87,13 +88,6 @@ nav {
     padding: 0;
 }
 
-#superior_nav > ul > li > button > img {
-    max-height: 50px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-}
-
 @media (max-width: 1100px) {
     #superior_nav > ul > li {
         width: 90%;
@@ -107,12 +101,21 @@ nav {
         border-radius: 0px;
     }
 
-    #superior_nav > ul > li > button > img {
-        max-height: 40px;
-        width: auto;
-        display: block;
-        margin: 0 auto;
+}
+
+@media (max-width: 935px) {
+    #superior_nav > ul > li {
+        width: 70%;
     }
+    
+    #superior_nav > ul > li > a {
+        font-size: 18px;
+    }
+
+    nav>#superior_nav {
+        border-radius: 0px;
+    }
+
 }
 
 @media (max-width: 920px) {
@@ -128,17 +131,9 @@ nav {
         border-radius: 0px;
     }
 
-    #superior_nav > ul > li > button > img {
-        max-height: 40px;
-        width: auto;
-        display: block;
-        margin: 0 auto;
-    }
-
-
 }
 
-@media (max-width: 850px) {
+@media (max-width: 865px) {
     #superior_nav > ul > li {
         width: 50%;
     }
@@ -151,10 +146,35 @@ nav {
         border-radius: 0px;
     }
 
-    #superior_nav > ul > li > button > img {
-        max-height: 30px;
-        width: auto;
-        display: block;
-        margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+    #superior_nav > ul > li {
+        width: 50%;
+    }
+    
+    #superior_nav > ul > li > a {
+        font-size: 16px;
+    }
+
+    nav>#superior_nav {
+        border-radius: 0px;
+    }
+
+    #superior_nav li > a:after { content: none; }
+
+}
+
+@media (max-width: 180px) {
+    #superior_nav > ul > li {
+        width: 50%;
+    }
+    
+    #superior_nav > ul > li > a {
+        font-size: 16px;
+    }
+
+    nav>#superior_nav {
+        border-radius: 0px;
     }
 }

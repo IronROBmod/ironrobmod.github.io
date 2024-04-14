@@ -1,4 +1,3 @@
-/*General FINSISH*/
 :root {
   --success: #0fb800;
   --progress: #ff6f00;
@@ -36,11 +35,6 @@ a {
 a:hover {
   color: #0056b3;
   text-decoration: underline
-}
-
-.dark-mode {
-  background-color: #1c1c1c;
-  color: #ffffff;
 }
 
 #imgplug {
@@ -139,7 +133,7 @@ a:hover {
 }
 
 .brand-name>a:hover {
-  color: #0059ff;
+  color: #00266c;
   text-decoration: solid;
 }
 
@@ -290,7 +284,6 @@ table {
   position: absolute;
 }
 
-
 caption {
   font-size: 1.3rem;
   font-weight: bold;
@@ -347,7 +340,8 @@ ul {
 }
 
 .text-green>a:hover {
-  color: #00cb00;
+  color: #ffffff;
+  background-color: #98cb00;
 }
 
 .text-orange {
@@ -359,7 +353,8 @@ ul {
 }
 
 .text-orange>a:hover {
-  color: #cc3333;
+  color: #ffffff;
+  background-color: #ff6733;
 }
 
 .text-blue {
@@ -371,7 +366,8 @@ ul {
 }
 
 .text-blue>a:hover {
-  color: #0000ff;
+  color: #ffffff;
+  background-color: #3398cc;
 }
 
 .text-dark-gray {
@@ -383,7 +379,8 @@ ul {
 }
 
 .text-dark-gray>a:hover {
-  color: #000000;
+  color: white;
+  background-color: #676767;
 }
 
 .text-brown {
@@ -395,7 +392,8 @@ ul {
 }
 
 .text-brown>a:hover {
-  color: #4c3333;
+  color: #ffffff;
+  background-color: #986665;
 }
 
 .text-purple {
@@ -419,7 +417,8 @@ ul {
 }
 
 .text-red>a:hover {
-  color: #ff0000;
+  color: #ffffff;
+  background-color: #d63031;
 }
 
 .title-small {
@@ -592,22 +591,6 @@ footer>p{
   margin-left: -15px
 }
 
-
-
-@media (min-width: 768px) {
-  .col-md-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%
-  }
-
-  .col-md-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%
-  }
-}
-
 .bg-dark {
   background-color: #343a40!important
 }
@@ -631,3 +614,18 @@ footer>p{
 .ml-auto{
   margin-left: auto!important
 }
+
+@media (min-width: 768px) {
+  .col-md-5 {
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%
+  }
+
+  .col-md-7 {
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%
+  }
+
+} 
