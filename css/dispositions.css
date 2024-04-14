@@ -43,17 +43,7 @@ a:hover {
 }
 
 #whoiam {
-  padding: 40px 0px 0px 20px ;
-}
-
-.button {
-  align-items: center;
-  display: block;
-  padding: 0px 0px;
-  border-radius: 5px;
-  text-decoration:dashed;
-  margin-bottom: 10px;
-  width: fit-content;
+  padding: 40px 0px 0px 0px ;
 }
 
 a:hover {
@@ -159,7 +149,7 @@ a:hover {
 
 .welcome-left {
   padding-right: 30px;
-  padding-top: 25px;
+  padding-top: 20px;
   padding-bottom: 25px
 }
 
@@ -176,19 +166,16 @@ ol,ul {
 .welcome-right {
   color: white;
   background-color: #3c1107;
-  padding: 80px 40px 60px;
+  padding: 60px 60px;
   height: 100%;
 }
 
 .welcome-right>p {
-  margin-top: 10px;
+  padding: 20px;
+  font-size: 30px;
 }
 
 /*Portfolio section*/
-
-#tmPortfolio {
-  padding-top: 60px;
-}
 
 .portfolio-item {
   display: flex;
@@ -224,13 +211,12 @@ ol,ul {
 
 #formations {
   text-align: center;
-  margin-top: 200px;
-  padding: 60px 0px 0px 0px ;
+  padding: 65px 0px 0px 0px ;
 }
 
 #competences {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 15px;
   padding: 60px 0px 0px 0px ;
 }
 
@@ -255,9 +241,7 @@ ol,ul {
 table {
   align-items: center;
   margin: auto;
-  width: calc(100% -300px);
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #professionelle>li{
@@ -430,13 +414,14 @@ p {
   margin: 0px 0px 0px;
 }
 
-.perso{
-  margin: 100px;
+#perso{
   text-align: center;
+  padding: 80px 0px 40px 0px ;
 }
 
-.pro {
+#pro {
   text-align: center;
+  padding: 80px 0px 40px 0px ;
 }
 
 .progressbar-wrapper {
@@ -628,4 +613,4 @@ footer>p{
     max-width: 58.333333%
   }
 
-} 
+}
