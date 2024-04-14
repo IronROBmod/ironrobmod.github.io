@@ -2,6 +2,7 @@
 
 ## **_https://ironrobmod.github.io_** ##
 
+Ce site est mon e-portfolio, il a pour but de me présenter, de présenter mes compétences, mes formations, mes expériences et mes projets. Il est en constante évolution et sera mis à jour régulièrement.
 <hocine.chebout.etu@univ-lille.fr> pour me contacter
 
 ## TO DO ##
