@@ -19,4 +19,3 @@ Ce site est mon e-portfolio, il a pour but de me présenter, de présenter mes c
 - [] Améliorer le design global
 - [] Ajouter des animations
 - [] refactoriser le code
-
