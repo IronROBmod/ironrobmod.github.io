@@ -215,7 +215,7 @@ ol,ul {
 
 #competences {
   text-align: center;
-  padding: 30px 0px 0px 0px ;
+  padding: 70px 0px 0px 0px ;
 }
 
 .Formations {  
@@ -234,6 +234,11 @@ ol,ul {
 .Formations>h3{
   text-align: center;
   margin-top: 15px;
+}
+
+.Formations>ul>li {
+  list-style-position:inside;
+  text-align:center;
 }
 
 table {
@@ -413,12 +418,12 @@ p {
 
 #perso{
   text-align: center;
-  padding: 80px 0px 40px 0px ;
+  padding: 80px 0px 40px 0px 
 }
 
 #pro {
   text-align: center;
-  padding: 80px 0px 40px 0px ;
+  padding: 80px 0px 40px 0px 
 }
 
 .progressbar-wrapper {
@@ -430,12 +435,15 @@ p {
 
 h1,h2,h3,h4,h5,h6 {
   margin-top: 0;
-  margin-bottom: .5rem
+  margin-bottom: .5rem;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px
 }
 
 .h1,h1 {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2.5rem
 }
 
 .h2,h2 {
@@ -443,12 +451,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .h3,h3 {
-  font-size: 1.75rem;
+  font-size: 1.75rem
 }
 
 .h4,h4 {
-  font-size: 1.2rem;
-  text-align: center
+  font-size: 1.2rem
 }
 
 .h5,h5 {
@@ -465,7 +472,7 @@ h1,h2,h3,h4,h5,h6 {
   text-align: right;
   text-align: center;
   font-size: 20px;
-  border-radius: 10px;
+  border-radius: 10px
 }
 
 .progressbar[title="downloading"] {
@@ -551,10 +558,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 footer {
-  background-color:#6b6b6b;
+  position:sticky;
+  width: 100%;
+  background-color: gray;
   color: white;
-  padding: 10px 0px;
   text-align: center;
+  padding-bottom: 80px;
+  padding-top: 50px;
 }
 
 footer>p{
