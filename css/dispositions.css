@@ -254,12 +254,8 @@ table {
 }
 
 #experiences{
+  padding: 100px;
   text-align: center;
-}
-
-#experiences>p{
-  text-align: center;
-  margin: 0px 15px 0px 15px ;
 }
 
 #ps2{
@@ -564,7 +560,7 @@ footer {
   color: white;
   text-align: center;
   padding-bottom: 80px;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 footer>p{
